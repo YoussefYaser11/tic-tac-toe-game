@@ -1,0 +1,32 @@
+body{
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.game{
+  width: 255px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  margin: 100px  auto;
+  font-weight: 500;
+}
+.game .title{
+  background-color: #fa0;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+.game .title span{
+  color: #f25;
+}
+.game .square{
+  width: 80px;
+  height: 80px;
+  background-color: #fa0;
+  float: left;
+  margin: 2.5px;
+  font-size: 50px;
+}
+.game .square:hover{
+  background-color: #000;
+  cursor: pointer;
+}
